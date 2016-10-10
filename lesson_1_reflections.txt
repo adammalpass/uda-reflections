@@ -11,3 +11,8 @@ git init
 
 The following command shows status of repository:
 git status
+
+Git doesn`t automatically check-in everything when you run `git commit`. First you must add any files to be committed to the `Staging Area`. This is done by:
+git add <file name>
+
+Check which files are in staging area through `git status` as before.
