@@ -16,3 +16,27 @@ Git doesn`t automatically check-in everything when you run `git commit`. First y
 git add <file name>
 
 Check which files are in staging area through `git status` as before.
+
+To compare working directory to staging area:
+git diff
+
+To compare staging area to most recent commit in repository:
+git diff --staged
+
+To revert all changes in working area and staging area (***CAREFUL - NON REVERSIBLE***)
+git reset --hard
+
+To view current branch (and available brances):
+git branch
+
+To create new branch
+git branch <branch name>
+
+To create new branch and check it out all in one go:
+git checkout -b <branch name>
+
+To merge 2 branches
+git merge <branch1> <branch2>
+
+After error, to revert to state before attempting to merge:
+git merge --abort
