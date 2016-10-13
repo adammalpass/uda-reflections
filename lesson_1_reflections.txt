@@ -40,3 +40,18 @@ git merge <branch1> <branch2>
 
 After error, to revert to state before attempting to merge:
 git merge --abort
+
+To connect to remote repository (e.g. Github)
+git remote add origin <link>
+
+To copy data to repository:
+git push origin <branch name>
+
+To update data from repository:
+git pull origin <branch name>
+
+To update local copy of remote repository (origin/master). Use this to check for/merge conflicts before pushing.
+git fetch
+
+To add copy of origin git to your forked database:
+git remote add upstream <link>
